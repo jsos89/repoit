@@ -10,3 +10,7 @@ variable "tags" {
     owner = "entrenamientoit"
   }
 }
+variable "subnet_cidr_block" {
+  description = "The CIDR block for the subnet"
+  type        = string
+}
